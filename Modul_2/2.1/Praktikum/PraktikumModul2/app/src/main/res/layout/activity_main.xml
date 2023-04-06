@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F6F5"
+    tools:context=".MainActivity">
+
+    <!-- Frame Layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:src="@drawable/bg6"
+            android:layout_gravity="center"/>
+
+        <!-- Linear Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/logo_utm"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Data Mahasiswa"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:fontFamily="@font/poppins_bold" />
+
+            <TextView
+                android:id="@+id/subjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Universitas Trunojoyo Madura"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/poppins_bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Table Layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+
+        <TableRow
+            android:background="#4B56D2">
+            <TextView
+                android:text="NIM"
+                android:layout_width="180dp"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                app:fontFamily="@font/poppins_bold"/>
+
+            <TextView
+                android:text="NAMA"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                app:fontFamily="@font/poppins_bold"/>
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white">
+            <TextView
+                android:text="210441100130"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:textColor="#808080"
+                app:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:text="Cheryl Almirah Azmi"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:textColor="#808080"
+                app:fontFamily="@font/poppins_medium"/>
+        </TableRow >
+
+        <TableRow
+            android:background="@color/white">
+            <TextView
+                android:text="210311100010"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:textColor="#808080"
+                app:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:text="Marsa Rahma Adelia"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:textColor="#808080"
+                app:fontFamily="@font/poppins_medium"/>
+        </TableRow >
+
+        <TableRow
+            android:background="@color/white">
+            <TextView
+                android:text="2106311000080"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:textColor="#808080"
+                app:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:text="Jannatul Firdausiyah"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:textColor="#808080"
+                app:fontFamily="@font/poppins_medium"/>
+        </TableRow >
+    </TableLayout>
+
+    <!-- Relative Layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/tNIM"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="NIM"
+            app:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:id="@+id/etNIM"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:hint="Masukkan NIM"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/tNIM"
+            android:textColor="#808080"
+            app:fontFamily="@font/poppins_medium"/>
+
+        <TextView
+            android:id="@+id/tNama"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Nama"
+            app:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/etNIM"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/tNama"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:hint="Masukkan nama"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#808080"
+            app:fontFamily="@font/poppins_medium" />
+
+        <Button
+            android:id="@+id/bSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_below="@+id/etNama"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="18dp"
+            android:textColor="@color/white"
+            app:backgroundTint="#4B56D2"/>
+
+        <Button
+            android:id="@+id/bReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:layout_below="@+id/etNama"
+            android:layout_toRightOf="@+id/bSubmit"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/white"
+            app:backgroundTint="#4B56D2"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+

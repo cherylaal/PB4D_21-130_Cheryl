@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Biodata</string>
+    <string name="biodata">
+        Nama = Cheryl Almirah Azmi
+        \nNIM = 210441100130
+        \nProdi = Sistem Informasi
+        \nFakultas = Teknik
+        \nUniversitas = Universitas Trunojoyo Madura
+        \nJenis kelamin = Perempuan
+        \nTgl Lahir = 30 Februari 2010
+        \nAsal kota = Sidoarjo
+        \nHobi = Mendengarkan musik
+        \nAgama = Islam
+        \nNo. telp = 081333604269
+        \nEmail = almirahcheryl@gmail.com
+        \nKewarganegaraan = Indonesia
+</string>
+</resources>
+
