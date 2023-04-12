@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ILOVEPDF</string>
+    <string name="desc">ilovepdf adalah sebuah aplikasi web yang berfungsi untuk mempermudah pengguna dalam melakukan berbagai macam tugas terkait PDF. Aplikasi ini menyediakan berbagai fitur seperti menggabungkan beberapa file PDF menjadi satu file, membagi satu file PDF menjadi beberapa file terpisah, mengonversi file dari format dokumen ke PDF atau sebaliknya, mengompresi ukuran file PDF, menghapus halaman atau gambar dari file PDF, serta melakukan tanda tangan digital pada file PDF. ilovepdf sangat berguna bagi mereka yang sering bekerja dengan dokumen dalam format PDF, terutama dalam lingkup bisnis atau akademik. Selain versi web, ilovepdf juga tersedia dalam bentuk aplikasi untuk perangkat mobile seperti Android dan iOS.</string>
+    <string name="text1">Semua alat yang Anda butuhkan untuk bekerja dengan PDF di satu tempat</string>
+    <string name="text2">Setiap alat yang Anda butuhkan untuk menggunakan PDF, di ujung jari. Semuanya 100% GRATIS dan mudah digunakan! Gabungkan, pisahkan, kompres, konversi, putar, buka kunci dan sertakan tanda air ke PDF hanya dengan beberapa klik.</string>
+</resources>

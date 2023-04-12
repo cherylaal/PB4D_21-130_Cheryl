@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="45dp">
+
+    <TextView
+        android:id="@+id/tv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textColor="#A30404"
+        android:textSize="27dp"
+        app:fontFamily="@font/poppins_extrabold" />
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_below="@+id/tv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="@string/text2"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:fontFamily="@font/poppins_medium" />
+
+    <Button
+        android:id="@+id/b_lanjut"
+        android:layout_marginTop ="250dp"
+        android:layout_below="@+id/tv_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:layout_marginLeft ="5dp"
+        android:layout_marginBottom ="5dp"
+        android:backgroundTint="#A30404"/>
+
+    <Button
+        android:id="@+id/b_coba"
+        android:layout_below="@+id/b_lanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="website"
+        android:layout_margin ="5dp"
+        android:backgroundTint="#A30404"/>
+
+    <Button
+        android:id="@+id/b_coba2"
+        android:layout_below="@+id/b_coba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="try application"
+        android:layout_margin ="5dp"
+        android:backgroundTint="#A30404"/>
+
+</RelativeLayout>
