@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#F1F6F5"
+tools:context=".Fragment1">
+
+<!-- TODO: Update blank fragment layout -->
+<!-- Frame Layout -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:src="@drawable/bg6"
+        android:layout_gravity="center"/>
+
+    <!-- Linear Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/logo_utm"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Data Mahasiswa"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:fontFamily="@font/poppins_bold" />
+
+        <TextView
+            android:id="@+id/subjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Universitas Trunojoyo Madura"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:fontFamily="@font/poppins_bold" />
+    </LinearLayout>
+</FrameLayout>
+
+
+
+<!-- Relative Layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/tNIM"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="NIM"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:fontFamily="@font/poppins_medium"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etNIM"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tNIM"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:hint="Masukkan NIM"
+        android:paddingLeft="10dp"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        app:fontFamily="@font/poppins_medium" />
+
+    <TextView
+        android:id="@+id/tNama"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Nama"
+        app:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/etNIM"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tNama"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:hint="Masukkan nama"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#808080"
+        app:fontFamily="@font/poppins_medium" />
+
+
+    <TextView
+        android:id="@+id/tAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Alamat"
+        app:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/etNama"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tAlamat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:hint="Masukkan alamat"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#808080"
+        app:fontFamily="@font/poppins_medium" />
+
+    <TextView
+        android:id="@+id/tSekolah"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Asal Sekolah"
+        app:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/etAlamat"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etSekolah"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tSekolah"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:hint="Masukkan asal sekolah"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="#808080"
+        app:fontFamily="@font/poppins_medium" />
+
+    <Button
+        android:id="@+id/btn_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_below="@+id/etSekolah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"/>
+
+</RelativeLayout>
+
+
+</LinearLayout>
+

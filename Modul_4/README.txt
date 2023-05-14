@@ -1,0 +1,1 @@
+Aplikasi ini merupakan data mahasiswa Universitas Trunojoyo Madura. Aplikasi ini dibuat menggunakan dua fragment. Fragment pertama berisi judul beserta inputan biodata mahasiswa. Data yang diinputkan pada fragment 1 akan dikirimkan ke fragment 2 menggunakan bundle. Fragment 2 hanya berisi data yang telah diinputkan sebelumnya pada fragment 1.

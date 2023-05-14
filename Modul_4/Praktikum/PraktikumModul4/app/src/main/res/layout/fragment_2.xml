@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F6F5"
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/poppins_medium" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Nama"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/tv_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="NIM"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Alamat"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asal Sekolah"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:id="@+id/tv_sekolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Asal sekolah"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:fontFamily="@font/poppins_medium"/>
+
+    <Button
+        android:id="@+id/btn_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="back"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>
